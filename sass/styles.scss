@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&family=Roboto:wght@300;400;700&display=swap');
+
+@import "commons.scss";
+@import "header.scss";
+@import "main.scss";
+
+#root {
+  .flex { flex-direction: row; }
+  .flex-y { flex-direction: column; }
+
+  .flex,
+  .flex-y {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &.jc-space-a { justify-content: space-around; }
+    &.jc-space-e { justify-content: space-evenly; }
+    &.jc-space-b { justify-content: space-between; }
+    &.jc-fs { justify-content: flex-start; }
+    &.jc-fe { justify-content: flex-end; }
+
+    &.ai-fs { align-items: flex-start; }
+    &.ai-fe { align-items: flex-end; }
+    &.ai-stretch { align-items: stretch; }
+  }
+}
