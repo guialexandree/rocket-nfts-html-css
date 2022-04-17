@@ -1,0 +1,86 @@
+footer {
+		
+    background-color: var(--card-color);
+    .header {
+			padding: 82px 86px 60px 86px;
+			border-bottom: solid 1px var(--subtitle-color);
+			button {
+				width: 80px;
+				height: 80px;
+				background-color: var(--color-logo);
+			}
+    }
+		
+    .body {
+			h3 {
+				font-size: 30px;
+			}
+			.register {
+				max-width: 544px;
+				padding: 67px 81px 62px 81px;
+				.input {
+					margin-top: 25px;
+					input {
+						font-size: 20px;
+						width: 280px;
+						height: 66px;
+						max-height: 66px;
+						padding: 20px;
+						background-color: var(--color-input);
+						color: var(--text-color);
+
+						&::placeholder {
+							color: var(--subtitle-color);
+						}
+					}
+					button {
+						padding: 22px 25px;
+						height: 66px; 
+						font-size: 20px;
+						transition: background-color .3s;
+						&:hover {
+							background-color:  rgba(255,255,255, .7);
+						}
+					}
+            }
+        }
+				
+				.links {
+					flex: 1;
+					font-size: 20px;
+					
+					ul {
+						& > li {
+							color: var(--subtitle-color);
+							&:first-of-type a {
+								font-weight: 700;
+								color: var(--text-color);
+
+							}
+							a {
+								transition: color .3s;
+								&:hover {
+									color: rgba(255,255,255, .7);
+								}
+							}
+							& + li {
+								margin-top: 15px;
+							}
+						}
+					}
+				}
+		}
+		
+		.contacts {
+			padding: 69px 86px 61px 86px;
+			border-top: solid 1px var(--subtitle-color);
+			span {
+				color: var(--subtitle-color);
+			}
+			figure {
+				img + img {
+					margin-left: 50px;
+				}
+			}
+		}
+}

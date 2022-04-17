@@ -1,0 +1,45 @@
+.main-amounts {
+  margin: 0 auto;
+  background-color: var(--body-background);
+  border-bottom: solid 1px var(--subtitle-color);
+  overflow: hidden;
+  .container {
+    padding: 0 80px 0 80px;
+    margin: 0 auto;
+    background-color: var(--body-background);
+    max-width: 1440px;
+  }
+  .amounts {
+    padding: 130px 67px 130px 97px;
+    
+    p {
+      & + p {
+        margin-top: 70px;
+      }
+      font-size: 50px;
+      line-height: 24px;
+      span { font-size: 20px;}
+    }
+
+  }
+  .body {
+    border-left: solid 1px var(--subtitle-color);
+    .texts {
+      article {
+        padding: 60px;
+        p {
+          a { 
+            color: var(--color-logo);
+            text-decoration: underline;
+           }
+        }
+        .more {
+          display: block;
+          padding-top: 60px;
+          text-decoration: underline;
+          color: var(--text-color);
+        }
+      }
+  }
+  }
+}

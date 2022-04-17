@@ -1,0 +1,43 @@
+.main-top-week {
+  padding-top: 150px;
+  background-color: var(--body-background);
+
+  .container {
+    padding: 0 80px 0 80px;
+    margin: 0 auto;
+    background-color: var(--body-background);
+    max-width: 1440px;
+  }
+
+	.artronauts {
+		margin-top: 150px;
+
+		.row {
+			.column {
+				&:nth-child(2) {
+					border-left: solid 1px var(--subtitle-color);
+				}
+				flex: 1;
+				padding-bottom: 63px;
+			}
+			h5 {
+				font-size: 30px;
+				color: var(--text-color);
+			}
+			p {
+				margin-top: 44px;
+				font-size: 20px;
+				color:  var(--subtitle-color);
+				span {
+					color: var(--color-logo);
+				}
+			}
+	
+			img {
+				margin-top: 26px;
+			}
+
+		}
+	}
+
+}
