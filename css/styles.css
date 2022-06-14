@@ -402,4 +402,22 @@ h1 {
   font-size: 50px;
 }
 
+@media only screen and (max-width: 400px) {
+  .mobile-hide {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .mobile {
+    margin: 20px !important;
+    padding: 20px !important;
+    display: inline !important;
+  }
+}
+@media only screen and (min-width: 500px) {
+  .desktop-hide {
+    display: none !important;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
